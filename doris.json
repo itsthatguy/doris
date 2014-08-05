@@ -1,0 +1,17 @@
+{
+  "config": {
+    "debug": {
+      "info": false,
+      "warning": true,
+      "error": true
+    }
+  },
+  "tasks": {
+    "start": [
+      "echo config first command",
+      "echo config second command",
+      "echo config third command"
+    ],
+    "test": []
+  }
+}

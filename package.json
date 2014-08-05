@@ -1,0 +1,25 @@
+{
+  "name": "doris",
+  "version": "0.0.0",
+  "description": "Node project runner",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "start": "coffee --bare --output ./lib/ --watch --no-header --compile ./src/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "run-command": "^0.1.5"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "doris": "lib/index.js"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3",
+    "should": "^4.0.4"
+  }
+}
